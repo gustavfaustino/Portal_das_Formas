@@ -9,7 +9,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calcular Área do Trapézio Irregular</title>
+    <title>Calcular Área do Retângulo</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,31 +22,25 @@
         top: 10px;
         left: 10px;
       }
-      .fixed-image {
-        width: 200px;
-        height: 200px;
-      }
     </style>
   </head>
   <body class="bg-dark text-light">
     <div class="container">
       <!-- Botão de Voltar -->
-      <a href="index.htm" class="btn btn-secondary back-btn">Voltar</a>
+      <a href="../index.htm" class="btn btn-secondary back-btn">Voltar</a>
 
       <!-- Título -->
-      <h1 class="text-center py-4">Calcular Área do Trapézio Irregular</h1>
+      <h1 class="text-center py-4">Calcular Área do Retângulo</h1>
       <p class="text-center mb-5">
-        Insira os valores da base maior, base menor e altura para calcular a
-        área do trapézio irregular.
+        Insira os valores da largura e altura para calcular a área do retângulo.
       </p>
 
-      <!-- Imagem do Trapézio -->
+      <!-- Imagem do Retângulo -->
       <div class="text-center">
         <img
-          src="assets/images/icons/trapezoide_irregular.png"
-          alt="Trapézio"
-          class="img-thumbnail rounded fixed-image"
-          style="width: 400px; height: 250px;"
+          src="../assets/images/icons/rectangulo.png"
+          alt="Retângulo"
+          class="img-thumbnail rounded"
         />
       </div>
 
@@ -55,37 +49,26 @@
         <div class="col-md-6">
           <div class="card bg-dark text-light">
             <div class="card-body">
-              <form id="trapezio-form">
+              <form id="rectangle-form">
                 <div class="mb-3">
-                  <label for="baseMaior" class="form-label">Base maior (B) em metros</label>
+                  <label for="largura" class="form-label">Largura (m)</label>
                   <input
                     type="number"
                     step="any"
                     class="form-control"
-                    id="baseMaior"
-                    placeholder="Digite o valor da base maior"
+                    id="largura"
+                    placeholder="Digite a largura do retângulo"
                     required
                   />
                 </div>
                 <div class="mb-3">
-                  <label for="baseMenor" class="form-label">Base menor (b) em metros</label>
-                  <input
-                    type="number"
-                    step="any"
-                    class="form-control"
-                    id="baseMenor"
-                    placeholder="Digite o valor da base menor"
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="altura" class="form-label">Altura (h) em metros</label>
+                  <label for="altura" class="form-label">Altura (m)</label>
                   <input
                     type="number"
                     step="any"
                     class="form-control"
                     id="altura"
-                    placeholder="Digite o valor da altura"
+                    placeholder="Digite a altura do retângulo"
                     required
                   />
                 </div>
@@ -100,6 +83,6 @@
       </div>
     </div>
 
-    <script src="assets/js/trapezio.js"></script>
+    <script src="../assets/js/rectangle.js"></script>
   </body>
 </html>
