@@ -2,7 +2,7 @@
 
 Bem-vindo ao **Portal das Formas**! Aqui, você encontra um jeito rápido, visual e divertido para calcular áreas de diversas formas geométricas. Seja para estudar, matar a curiosidade ou simplificar cálculos, esse portal é para você!
 
-**Acesse o site no GitHub Pages:** [Portal das Formas](URL-DO-SEU-SITE-GITHUB-PAGES)
+**Acesse o site no GitHub Pages:** [Portal das Formas](https://gustavfaustino.github.io/Portal_das_Formas/)
 
 ## Sobre o Projeto 📝
 
